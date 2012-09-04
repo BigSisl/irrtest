@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cproject/irrtest/src/main.cpp
+irrlicht/irrlicht.h
+-
+SPK.h
+-
+SPK_IRR.h
+-
+windows.h
+-
+

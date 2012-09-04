@@ -1,0 +1,2 @@
+C:/cproject/irrtest/CMakeFiles/base.dir
+C:/cproject/irrtest/CMakeFiles/metoritewars.dir

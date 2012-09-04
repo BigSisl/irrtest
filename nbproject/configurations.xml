@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="src" root="src">
+      <df name="Core">
+        <in>SPK_ArrayBuffer.h</in>
+        <in>SPK_Buffer.h</in>
+        <in>SPK_BufferHandler.cpp</in>
+        <in>SPK_BufferHandler.h</in>
+        <in>SPK_DEF.cpp</in>
+        <in>SPK_DEF.h</in>
+        <in>SPK_Emitter.cpp</in>
+        <in>SPK_Emitter.h</in>
+        <in>SPK_Factory.cpp</in>
+        <in>SPK_Factory.h</in>
+        <in>SPK_Group.cpp</in>
+        <in>SPK_Group.h</in>
+        <in>SPK_Interpolator.cpp</in>
+        <in>SPK_Interpolator.h</in>
+        <in>SPK_Model.cpp</in>
+        <in>SPK_Model.h</in>
+        <in>SPK_Modifier.cpp</in>
+        <in>SPK_Modifier.h</in>
+        <in>SPK_Particle.cpp</in>
+        <in>SPK_Particle.h</in>
+        <in>SPK_Pool.h</in>
+        <in>SPK_RegWrapper.h</in>
+        <in>SPK_Registerable.cpp</in>
+        <in>SPK_Registerable.h</in>
+        <in>SPK_Renderer.cpp</in>
+        <in>SPK_Renderer.h</in>
+        <in>SPK_System.cpp</in>
+        <in>SPK_System.h</in>
+        <in>SPK_Transformable.cpp</in>
+        <in>SPK_Transformable.h</in>
+        <in>SPK_Vector3D.cpp</in>
+        <in>SPK_Vector3D.h</in>
+        <in>SPK_Zone.cpp</in>
+        <in>SPK_Zone.h</in>
+      </df>
+      <df name="Extensions">
+        <df name="Emitters">
+          <in>SPK_NormalEmitter.cpp</in>
+          <in>SPK_NormalEmitter.h</in>
+          <in>SPK_RandomEmitter.cpp</in>
+          <in>SPK_RandomEmitter.h</in>
+          <in>SPK_SphericEmitter.cpp</in>
+          <in>SPK_SphericEmitter.h</in>
+          <in>SPK_StaticEmitter.h</in>
+          <in>SPK_StraightEmitter.cpp</in>
+          <in>SPK_StraightEmitter.h</in>
+        </df>
+        <df name="Modifiers">
+          <in>SPK_Collision.cpp</in>
+          <in>SPK_Collision.h</in>
+          <in>SPK_Destroyer.cpp</in>
+          <in>SPK_Destroyer.h</in>
+          <in>SPK_LinearForce.cpp</in>
+          <in>SPK_LinearForce.h</in>
+          <in>SPK_ModifierGroup.cpp</in>
+          <in>SPK_ModifierGroup.h</in>
+          <in>SPK_Obstacle.cpp</in>
+          <in>SPK_Obstacle.h</in>
+          <in>SPK_PointMass.cpp</in>
+          <in>SPK_PointMass.h</in>
+          <in>SPK_Rotator.h</in>
+          <in>SPK_Vortex.cpp</in>
+          <in>SPK_Vortex.h</in>
+        </df>
+        <df name="Renderers">
+          <in>SPK_LineRendererInterface.h</in>
+          <in>SPK_Oriented2DRendererInterface.h</in>
+          <in>SPK_Oriented3DRendererInterface.cpp</in>
+          <in>SPK_Oriented3DRendererInterface.h</in>
+          <in>SPK_PointRendererInterface.h</in>
+          <in>SPK_QuadRendererInterface.cpp</in>
+          <in>SPK_QuadRendererInterface.h</in>
+        </df>
+        <df name="Zones">
+          <in>SPK_AABox.cpp</in>
+          <in>SPK_AABox.h</in>
+          <in>SPK_Cylinder.cpp</in>
+          <in>SPK_Cylinder.h</in>
+          <in>SPK_Line.cpp</in>
+          <in>SPK_Line.h</in>
+          <in>SPK_Plane.cpp</in>
+          <in>SPK_Plane.h</in>
+          <in>SPK_Point.cpp</in>
+          <in>SPK_Point.h</in>
+          <in>SPK_Ring.cpp</in>
+          <in>SPK_Ring.h</in>
+          <in>SPK_Sphere.cpp</in>
+          <in>SPK_Sphere.h</in>
+        </df>
+      </df>
+      <df name="RenderingAPIs">
+        <df name="Irrlicht">
+          <in>SPK_IRRBuffer.cpp</in>
+          <in>SPK_IRRBuffer.h</in>
+          <in>SPK_IRRLineRenderer.cpp</in>
+          <in>SPK_IRRLineRenderer.h</in>
+          <in>SPK_IRRPointRenderer.cpp</in>
+          <in>SPK_IRRPointRenderer.h</in>
+          <in>SPK_IRRQuadRenderer.cpp</in>
+          <in>SPK_IRRQuadRenderer.h</in>
+          <in>SPK_IRRRenderer.cpp</in>
+          <in>SPK_IRRRenderer.h</in>
+          <in>SPK_IRRSystem.cpp</in>
+          <in>SPK_IRRSystem.h</in>
+          <in>SPK_IRR_DEF.h</in>
+        </df>
+        <df name="OpenGL">
+          <in>SPK_GLExtHandler.cpp</in>
+          <in>SPK_GLExtHandler.h</in>
+          <in>SPK_GLLineRenderer.cpp</in>
+          <in>SPK_GLLineRenderer.h</in>
+          <in>SPK_GLLineTrailRenderer.cpp</in>
+          <in>SPK_GLLineTrailRenderer.h</in>
+          <in>SPK_GLPointRenderer.cpp</in>
+          <in>SPK_GLPointRenderer.h</in>
+          <in>SPK_GLQuadRenderer.cpp</in>
+          <in>SPK_GLQuadRenderer.h</in>
+          <in>SPK_GLRenderer.cpp</in>
+          <in>SPK_GLRenderer.h</in>
+          <in>SPK_GL_DEF.h</in>
+        </df>
+      </df>
+      <in>SPK.h</in>
+      <in>SPK_All.cpp</in>
+      <in>SPK_GL.h</in>
+      <in>SPK_GL_All.cpp</in>
+      <in>SPK_IRR.h</in>
+      <in>SPK_IRR_ALL.cpp</in>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>bin/metoritewars.exe</executablePath>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
